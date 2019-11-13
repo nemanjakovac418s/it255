@@ -1,0 +1,36 @@
+body {
+  background: #f4f4f4;
+  font-family: 'Lucida Sans';
+}
+.primarno-dugme {
+  background-color: #f4f4f4;
+  color: red;
+}
+.proizvod,
+.primarno-dugme {
+  padding: 1px 1px;
+  border: 0;
+  -webkit-border-radius: 1px;
+  border-radius: 1px;
+  -moz-border-radius: 1px;
+  -khtml-border-radius: 1px;
+}
+ul {
+  list-style-type: none;
+}
+ul li {
+  float: left;
+  width: 200px;
+}
+ul li a {
+  text-decoration: none;
+  color: #f4f4f4;
+  display: block;
+  text-align: center;
+}
+ul li a:hover {
+  background-color: blue;
+}
+.vest {
+  background-color: #ffffff;
+}

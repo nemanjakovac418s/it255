@@ -1,0 +1,169 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Lucida Sans';
+}
+@media only screen and (max-width: 800px){
+  .okvir{
+    display: none;
+  }
+  .hamburger{
+    display: block;
+    float: left;
+    color: white;
+    text-align: left;
+    height: 70px;
+    line-height: 70px;
+  }
+  .hamburger-menu{
+    margin: 0 30px 0 0;
+    text-align: center;
+    width: 100%;
+    display: none;
+    text-decoration: none;
+  }
+  .hamburger-menu a{
+    margin: 0 10px;
+    line-height: 7px;
+    display: block;
+    margin: 0;
+  }
+  label{
+    margin: 0 40px 0 0;
+    line-height: 70px;
+    display: block;
+    cursor: pointer;
+  }
+  #toggle{
+    display: none;
+  }
+  #toggle:checked + .hamburger-menu {
+    display: block;
+    background-color: black;
+  }
+  #vesti{
+    width: 15%100%;
+    float: left;
+  }
+  #proizvodi{
+    float: left;
+    width: 100%;
+    border:1px solid #000000;
+  }
+  .proizvod{
+    width: 45%;
+  display: inline-block;
+  }
+  .prijava{
+    float:right;
+  border: black;
+  background-color: burlywood;
+  width: 100%;
+  float: right;
+  }
+}
+@media only screen and (min-width:801px ){
+  .okvir{
+    display: block;
+  }
+  .hamburger{
+    display: none;
+    color: white;
+  }
+  #vesti{
+    width: 15%;
+    float: left;
+    padding: 0 25px 0 0;
+  }
+  #proizvodi{
+    float: left;
+    width: 65%;
+    border:1px solid #000000;
+  }
+  .proizvod{
+    width: 30%;
+    padding: 0 0 0 20px;
+  display: inline-block;
+  }
+  .prijava{
+    float:right;
+  border: black;
+  background-color: burlywood;
+  width: 15%;
+  float: right;
+  }
+}
+.floating-menu{
+  font-family: sans-serif;
+  background: grey;
+  padding: 10px;;
+  width: 100%;
+  z-index: 100;
+  position: fixed;
+}
+.floating-menu a {
+  font-size: 2.5em;
+  display: inline-block;
+  margin: 0 0.5em;
+  color: white;
+}
+.heder{
+width: 100%;
+margin: 100px auto;
+display: inline-block;
+
+}
+.heder img{
+  width: 20%;
+}
+.heder span{
+  margin-left: 250px;
+  font-size: 45px;
+}
+.naslov{
+display: inline-block;
+font-size: 50px;
+text-align: center;
+}
+
+.proizvod img{
+  width: 100%;
+}
+.imgwrapper{
+position: relative;
+}
+.vest{
+padding: 35px;
+}
+.vest img{
+  width: 100%;
+}
+.glavni{
+  display: inline-block;
+}
+
+.cleaner{
+  clear: both;
+}
+.floating-menu ul li{
+  display: inline-block;
+}
+.okvir{
+  width: 1000px;
+  margin: 0px auto;
+}
+.slika{
+  display:inline-block;
+  width: 25%;
+}
+.slika a img{
+  width: 100%;
+}
+.mapa{
+  width: 50%;
+  float: left;
+}
+.info{
+  width: 49%;
+  float: right;
+}
